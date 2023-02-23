@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:fmaRelational="org.fma.Relational">
+  <fmaRelational:Table name="Item" key="/0/@col.0">
+    <col name="objectId" keyOf="/0" type="/6"/>
+    <col name="date" type="/5"/>
+    <col name="customerId" type="/6"/>
+  </fmaRelational:Table>
+  <fmaRelational:Table name="Order" key="/1/@col.0">
+    <col name="objectId" keyOf="/1" type="/6"/>
+  </fmaRelational:Table>
+  <fmaRelational:Table name="Customer" key="/2/@col.0">
+    <col name="objectId" keyOf="/2" type="/6"/>
+    <col name="name" type="/5"/>
+  </fmaRelational:Table>
+  <fmaRelational:Table name="Item_product" key="/3/@col.0">
+    <col name="itemId" keyOf="/3" type="/6"/>
+    <col name="product" type="/5"/>
+  </fmaRelational:Table>
+  <fmaRelational:Table name="Order_items" key="/4/@col.0 /4/@col.1">
+    <col name="orderId" keyOf="/4" type="/6"/>
+    <col name="itemsId" keyOf="/4" type="/6"/>
+  </fmaRelational:Table>
+  <fmaRelational:Type name="String"/>
+  <fmaRelational:Type name="Integer"/>
+</xmi:XMI>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CD:Package
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:CD="org.fma.fmaClass">
+  <classifiers
+      xsi:type="CD:Class"
+      name="Order"
+      isAbstract="false">
+    <attr name="items"
+        multiValued="true"
+        type="//@classifiers.1"/>
+  </classifiers>
+  <classifiers
+      xsi:type="CD:Class"
+      name="Item"
+      isAbstract="false">
+    <attr name="date"
+        multiValued="false"
+        type="//@classifiers.2"/>
+    <attr name="product"
+        multiValued="false"
+        type="//@classifiers.2"/>
+  </classifiers>
+  <classifiers
+      xsi:type="CD:DataType"
+      name="String"/>
+  <classifiers
+      xsi:type="CD:DataType"
+      name="Integer"/>
+</CD:Package>

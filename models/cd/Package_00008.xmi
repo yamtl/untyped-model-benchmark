@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CD="org.fma.fmaClass">
+  <CD:Package name="c">
+    <classifiers xsi:type="CD:DataType" name="e"/>
+    <classifiers xsi:type="CD:DataType" name="w"/>
+    <classifiers xsi:type="CD:DataType" name="k"/>
+    <classifiers xsi:type="CD:DataType" name="z"/>
+    <classifiers xsi:type="CD:DataType" name="p"/>
+    <classifiers xsi:type="CD:DataType" name="z"/>
+    <classifiers xsi:type="CD:DataType" name="p"/>
+    <classifiers xsi:type="CD:DataType" name="q"/>
+    <classifiers xsi:type="CD:Class" name="b" super="/0/@classifiers.13" isAbstract="false">
+      <attr name="w" multiValued="false" type="/0/@classifiers.4"/>
+      <attr name="z" multiValued="false" type="/0/@classifiers.7"/>
+      <attr name="b" multiValued="false" type="/0"/>
+      <attr name="t" multiValued="false" type="/0/@classifiers.13"/>
+      <attr name="n" multiValued="true" type="/0/@classifiers.6"/>
+      <attr name="x" multiValued="true" type="/0/@classifiers.15"/>
+      <attr name="x" multiValued="false" type="/0/@classifiers.11"/>
+      <attr name="j" multiValued="true" type="/0/@classifiers.11"/>
+      <attr name="z" multiValued="true" type="/0/@classifiers.15"/>
+      <attr name="x" multiValued="false" type="/0/@classifiers.7"/>
+      <attr name="e" multiValued="true" type="/0/@classifiers.14"/>
+      <attr name="j" multiValued="false" type="/0/@classifiers.4"/>
+      <attr name="e" multiValued="false" type="/0/@classifiers.9"/>
+      <attr name="e" multiValued="false" type="/0/@classifiers.14"/>
+      <attr name="l" multiValued="false" type="/0/@classifiers.2"/>
+      <attr name="k" multiValued="false" type="/0/@classifiers.2"/>
+      <attr name="y" multiValued="false" type="/0/@classifiers.12"/>
+      <attr name="d" multiValued="true" type="/0/@classifiers.6"/>
+      <attr name="y" multiValued="true" type="/0/@classifiers.11"/>
+      <attr name="c" multiValued="true" type="/0/@classifiers.3"/>
+      <attr name="c" multiValued="false" type="/0/@classifiers.1"/>
+      <attr name="u" multiValued="false" type="/0/@classifiers.14"/>
+    </classifiers>
+    <classifiers xsi:type="CD:Class" name="j" super="/0/@classifiers.15 /0/@classifiers.8" isAbstract="false">
+      <attr name="t" multiValued="true" type="/0/@classifiers.15"/>
+      <attr name="g" multiValued="true" type="/0/@classifiers.10"/>
+      <attr name="p" multiValued="false" type="/0/@classifiers.6"/>
+      <attr name="j" multiValued="false" type="/0/@classifiers.3"/>
+      <attr name="y" multiValued="false" type="/0/@classifiers.7"/>
+      <attr name="g" multiValued="false" type="/0/@classifiers.2"/>
+      <attr name="f" multiValued="true" type="/0/@classifiers.12"/>
+      <attr name="m" multiValued="false" type="/0/@classifiers.10"/>
+      <attr name="e" multiValued="true" type="/0/@classifiers.2"/>
+      <attr name="d" multiValued="false" type="/0/@classifiers.9"/>
+      <attr name="x" multiValued="true" type="/0"/>
+      <attr name="m" multiValued="false" type="/0/@classifiers.2"/>
+    </classifiers>
+    <classifiers xsi:type="CD:Class" name="s" super="/0/@classifiers.8 /0/@classifiers.9" isAbstract="false">
+      <attr name="j" multiValued="true" type="/0/@classifiers.11"/>
+      <attr name="u" multiValued="true" type="/0/@classifiers.2"/>
+      <attr name="y" multiValued="false" type="/0/@classifiers.15"/>
+      <attr name="w" multiValued="true" type="/0/@classifiers.8"/>
+      <attr name="e" multiValued="true" type="/0/@classifiers.6"/>
+    </classifiers>
+    <classifiers xsi:type="CD:Class" name="f" super="/0/@classifiers.12 /0/@classifiers.10" isAbstract="true">
+      <attr name="o" multiValued="false" type="/0/@classifiers.0"/>
+      <attr name="h" multiValued="false" type="/0/@classifiers.9"/>
+      <attr name="e" multiValued="false" type="/0/@classifiers.9"/>
+      <attr name="f" multiValued="false" type="/0/@classifiers.4"/>
+      <attr name="x" multiValued="true" type="/0/@classifiers.1"/>
+      <attr name="y" multiValued="false" type="/0/@classifiers.15"/>
+      <attr name="u" multiValued="false" type="/0/@classifiers.4"/>
+      <attr name="b" multiValued="true" type="/0/@classifiers.8"/>
+      <attr name="s" multiValued="false" type="/0/@classifiers.5"/>
+      <attr name="p" multiValued="false" type="/0/@classifiers.12"/>
+    </classifiers>
+    <classifiers xsi:type="CD:Class" name="f" super="/0/@classifiers.13 /0/@classifiers.9" isAbstract="false">
+      <attr name="p" multiValued="false" type="/0/@classifiers.13"/>
+      <attr name="h" multiValued="true" type="/0/@classifiers.3"/>
+      <attr name="h" multiValued="false" type="/0/@classifiers.11"/>
+      <attr name="i" multiValued="false" type="/0/@classifiers.6"/>
+      <attr name="g" multiValued="false" type="/0/@classifiers.7"/>
+      <attr name="t" multiValued="true" type="/0/@classifiers.6"/>
+      <attr name="n" multiValued="true" type="/0"/>
+      <attr name="t" multiValued="false" type="/0/@classifiers.7"/>
+      <attr name="f" multiValued="false" type="/0/@classifiers.1"/>
+    </classifiers>
+    <classifiers xsi:type="CD:Class" name="n" super="/0/@classifiers.9 /0/@classifiers.12" isAbstract="false">
+      <attr name="c" multiValued="false" type="/0"/>
+      <attr name="e" multiValued="false" type="/0/@classifiers.10"/>
+      <attr name="o" multiValued="true" type="/0/@classifiers.12"/>
+      <attr name="n" multiValued="true" type="/0/@classifiers.11"/>
+      <attr name="v" multiValued="true" type="/0/@classifiers.3"/>
+    </classifiers>
+    <classifiers xsi:type="CD:Class" name="w" super="/0/@classifiers.11 /0/@classifiers.14" isAbstract="true">
+      <attr name="j" multiValued="true" type="/0/@classifiers.12"/>
+      <attr name="h" multiValued="false" type="/0/@classifiers.3"/>
+      <attr name="r" multiValued="true" type="/0/@classifiers.7"/>
+      <attr name="z" multiValued="false" type="/0/@classifiers.14"/>
+      <attr name="s" multiValued="false" type="/0/@classifiers.2"/>
+      <attr name="i" multiValued="false" type="/0/@classifiers.0"/>
+    </classifiers>
+    <classifiers xsi:type="CD:Class" name="o" super="/0/@classifiers.12 /0/@classifiers.14" isAbstract="true">
+      <attr name="s" multiValued="false" type="/0"/>
+      <attr name="z" multiValued="false" type="/0/@classifiers.0"/>
+      <attr name="u" multiValued="true" type="/0/@classifiers.9"/>
+      <attr name="v" multiValued="true" type="/0/@classifiers.0"/>
+      <attr name="d" multiValued="true" type="/0/@classifiers.5"/>
+      <attr name="c" multiValued="false" type="/0"/>
+      <attr name="r" multiValued="true" type="/0/@classifiers.11"/>
+      <attr name="h" multiValued="false" type="/0/@classifiers.6"/>
+      <attr name="e" multiValued="true" type="/0/@classifiers.3"/>
+      <attr name="m" multiValued="true" type="/0/@classifiers.12"/>
+      <attr name="j" multiValued="true" type="/0/@classifiers.13"/>
+    </classifiers>
+  </CD:Package>
+  <CD:DataType name="Integer"/>
+</xmi:XMI>
